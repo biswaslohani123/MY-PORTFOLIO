@@ -76,7 +76,7 @@ const Navbar = () => {
              hover:scale-105 hover:bg-gray-600"
             href="#contact"
           >
-            Contact <Image alt="" src={assets.arrow_icon} className="w-3 " />
+            Contact <Image alt="#contact" src={assets.arrow_icon} className="w-3 " />
           </a>
 
           <button className="block md:hidden ml-3" onClick={openMenu}>
