@@ -15,7 +15,7 @@ const Aboutme = () => {
         </div>
 
         <div className='flex-1'>
-            <p className='mb-10 max-w-2xl font-sans'>I am Bachelor graduated Student From ICP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cum ducimus nostrum cumque laboriosam perferendis maiores dolores aliquid voluptatum dolorem voluptate, odit, accusamus, iure consequatur.</p>
+            <p className='mb-10 max-w-2xl  text-gray-500 font-sans transition-all duration-300 hover:text-black hover-translate-x-1'>  I am a Bachelor’s graduate from ICP, focused on creating modern web applications with React and Node.js. I love turning ideas into interactive projects while learning new technologies along the way.</p>
 
             <ul className='grid grid-cols-1  sm:grid-cols-3 gap-6 max-w-2xl '>
                 {infoList.map((({icon, iconDark, title, description}, index) => {
