@@ -36,7 +36,7 @@ const Header = () => {
 
             } className=' w-4'/></a>
 
-            <a href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>My Resume  <Image alt='' src={assets.right_arrow_white
+            <a href="#"  className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>My Resume  <Image alt='' src={assets.right_arrow_white
 
             } className=' w-4'/></a>
         </div>
