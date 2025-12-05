@@ -13,7 +13,7 @@ const Services = () => {
 
       <div className='grid grid-cols-2 gap-6 my-10'>
         {serviceData.map(({icon, title, description, link}, index) => {
-            return <div key={index} className='border border-black rounded-lg px-8 py-12 cursor-pointer hover:bg-amber-50 transform transition-all hover:shadow-lg hover:shadow-black duration-300 ease-in-out hover:scale-[1.02]'>
+            return <div key={index} className='border border-black rounded-lg px-8 py-12 cursor-pointer hover:bg-pink-50 transform transition-all hover:shadow-lg hover:shadow-black duration-300 ease-in-out hover:scale-[1.02]'>
                 <Image alt='' src={icon} className='w-10'/>
                 <h3 className='text-lg my-4 text-gray-700'>{title}</h3>
                 <p className='text-sm text-gray-600 leading-5'>{description}</p>

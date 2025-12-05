@@ -35,6 +35,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import work_one from './work-1.png'
+import work_two from './work-2.png'
+import work_three from './work-3.png'
+import work_four from './work-4.png'
 
 export const assets = {
     user_image,
@@ -73,7 +77,11 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    work_one,
+    work_two,
+    work_three,
+    work_four
 };
 
 export const workData = [
